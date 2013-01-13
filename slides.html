@@ -1,0 +1,29 @@
+<!-- TODO update h2 to h3 style or possiblly just leave as is? what is the semantic significance of h1-h6? -->
+
+<!-- TODO do I reword or just say that text is pulled from scalamacros.org ? (could I do that?) (maybe with quotes) -->
+
+<!-- bower notes: submit pull request for optional slides as separate file, haml-js as a plugin -->
+
+<title>fallback slides</title>
+
+<section>
+	<h2>A title slide</h2>
+	<h4 class="fragment">fragment text</h4>
+</section>
+
+<section>
+	<blockquote>
+		a blockquote  --anonymous
+	</blockquote>
+</section>
+
+<section>
+	<p>some code</p>
+	<pre><code contenteditable class="scala">
+scala> import reflect.runtime.universe._
+import reflect.runtime.universe._
+
+scala> showRaw(reify { 42 })
+res0: String = Expr(Literal(Constant(42)))
+	</code></pre>
+</section>
